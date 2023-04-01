@@ -31,6 +31,23 @@ header {
     cursor: pointer;
 }
 
+.dark-highlight {
+    color: #0a0a0a;
+}
+
+.orange-highlight {
+    color: #FF900E;
+}
+
+.grey-highlight {
+    color: #727272;
+}
+
+h2 {
+    font-weight: 700;
+    color: #0a0a0a;
+}
+
 /* Navbar starts */
 
 nav {
@@ -96,3 +113,50 @@ nav ul li a {
 }
 
 /* Banner section starts */
+
+/* Teams section starts */
+
+.teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.teams-gallery {
+    width: 50%;
+    padding: 2rem;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.image-grid img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.teams-info {
+    width: 50%;
+    padding: 2rem;
+    color: #727272;
+}
+
+.teams-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.teams-info p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* Teams section ends */
