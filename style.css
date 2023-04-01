@@ -82,6 +82,11 @@ nav ul li a {
     color: #0a0a0a;
 }
 
+nav p {
+    color: #0a0a0a;
+    font-size: 2rem;
+}
+
 
 /* Navbar ends */
 
@@ -247,6 +252,11 @@ nav ul li a {
     padding: 30px;
     border-radius: 5px;
     margin: 30px;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+.fact-card:hover {
+    box-shadow: 0px 10px 20px #ffd5a4;
 }
 
 .fact-card h3 {
@@ -260,3 +270,45 @@ nav ul li a {
 }
 
 /* Facts section ends */
+
+/* Sponsor section starts */
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.sponsors p {
+    margin: 30px 0;
+}
+
+.sponsor-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-icons img {
+    width: 50%;
+    margin: 0 auto;
+    filter: grayscale(100%);
+}
+
+/* Sponsor section ends */
+
+/* Footer starts */
+
+footer {
+    padding: 20px;
+    background-color: hsla(32, 100%, 53%, 0.1);
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 100px !important;
+}
+
+/* Footer ends */
